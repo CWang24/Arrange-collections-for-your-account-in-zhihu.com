@@ -7,7 +7,7 @@ import os
 
 
 s = requests.session()
-login_data = {'email': '1021388384@qq.com', 'password': '08180920'}
+login_data = {'email': 'XXX@XXX', 'password': '*********'}
 s.post('http://www.zhihu.com/login', login_data)
 print 'Visiting collections homepage...'
 r = s.get('http://www.zhihu.com/collections/mine')
